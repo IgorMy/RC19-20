@@ -1,6 +1,6 @@
 
 # Practicas de Representación del conocimiento
-  :office: Universidad de Huelva (UHU)
+  :office: Universidad de Huelva (UHU)  
   :calendar: Curso 2019-2020
 
 ## natural.pl
