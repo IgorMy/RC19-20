@@ -1,7 +1,7 @@
 
 # Practicas de Representación del conocimiento
-  :office: Universidad de Huelva (UHU)  
-  :calendar: Curso 2019-2020
+	:office: Universidad de Huelva (UHU)  
+ 	:calendar: Curso 2019-2020
 
 ## natural.pl
 Este programa implementa en Prolog el predicado natural que comprueba si el número es natural o no.
