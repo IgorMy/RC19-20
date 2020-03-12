@@ -1,0 +1,96 @@
+05/03/2020
+
+natural(+Numero) Es cierto si Numero es natural
+
+Principio de inducción matemático
+
+Queremos probar que P es cierta para todo elemento de S
+
+S (es ordenable,existe un primer elemento n0)
+
+1) P(n0)
+
+2) P(n-1) -> P(n) // n > n0
+
+Esto es el principio de inducción
+
+Para que un programa pueda resolverse dentro de la logica, necesita un subconjunto de clausulas de la lógica (Clausulas de Horu)
+
+Clausulas de Horu
+
+1. a^b^c -> d (a es cierto y b es cierto y c es cierto -> d)   --> d :- a,b,c.
+
+2. a -> b ^ c (a -> b,a -> c) (si llueve cogo el paraguas y el chuvasquero)
+
+3. a v b -> c (a -> c, b-> c) (si llueve o graniza cogo el paraguas)
+
+4. a -> b v c (No se usa, ni existe, hay que olvidarse de esta mierda)
+
+
+- una variable en programación -> un puntero a una posición de memoria
+
+- una variable en matematicas se define por dos teoremas 
+
+Unificación 
+
+  = -> A=B (lO HACE A NIVEL DE ESTRUCTURA)
+
+Dos terminos unifican:
+
+1) Si no hay variables
+	-> Si los dos términos son idénticos
+	1 = 1. true
+	1+1 = 2. false
+	1+1 = +(1,1). true (notacion infija = notación prefija)
+	(1+1) = 1+1. true (los parentesis si no alteran la estructura de lo que va dentro, se puede quitar)
+
+2) Si hay variables
+	-> Si existe una sustitucion de las variables para que sean identicos
+	A = 2, A = 1 + 1. falso 
+	A is 1 + 1.  A = 2 (is unifica y realiza las operaciones aritmeticas)
+	X is Y. falla, necesita que al menos una variable este inicializada
+	
+	
+
+Lista en prolo = [1,2,3,...]
+----------------------------------------------------------------------------------------------
+
+12/03/20
+
+Listas
+
+	[1,2,3]
+
+	['a','b','c']
+
+	[[1,2,3],[4],[5,6]]
+
+	[1,'a',[1,2]]
+
+Operador |: [Cabeza | Resto]
+
+Unificación con listas -> lo hace elemento a elemento
+
+[1,2,3] = [A,B,C].
+A=1,
+B=2,
+C=3.
+
+[Cabeza | Resto] = [1,2,3,4].
+
+Cabeza = 1,
+Resto = [2,3,4]. // El resto siempre es una lista
+
+[Cabeza | Resto] = [1].
+Cabeza = 1,
+Resto = [].
+
+Las variables en Prolog empiezan en mayusculas
+
+[C1,C2,C3| R] = [1,2,3,4].
+C1 = 1,
+C2 = 2,
+C3 = 3,
+R = [4].
+
+
