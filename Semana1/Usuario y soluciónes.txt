@@ -1,4 +1,4 @@
- 
+ Usario Github: IgorMy
 
 1. ¿Seria posible utilizando el predicado concatenar obtener cualquier par de números consecutivos de una lista? En caso afirmativo, ¿de qué forma tendría que utilizar el predicado concatenar para conseguirlo?
 
@@ -33,3 +33,4 @@ No puede ser reversible cuando se usa un operador is o el operador :=.
 
 invertir([1,2,3],R),
 concatenar([1,2,3],R,C).
+
