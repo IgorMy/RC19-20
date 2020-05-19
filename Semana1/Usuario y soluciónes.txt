@@ -1,4 +1,5 @@
  Usario Github: IgorMy
+ Repositorio: https://github.com/IgorMy/RC19-20
 
 1. ¿Seria posible utilizando el predicado concatenar obtener cualquier par de números consecutivos de una lista? En caso afirmativo, ¿de qué forma tendría que utilizar el predicado concatenar para conseguirlo?
 

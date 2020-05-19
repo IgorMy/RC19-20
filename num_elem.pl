@@ -8,10 +8,5 @@ num_elem(?Lista, ?Num)
 
 */
 
-/*
 num_elem([],0).
-num_elem( [ _ | Resto ] , N ) :- N2 is N-1, num_elem(Resto,N2).
-*/
-
-num_elem([], N) :- N is 0.
-num_elem( [ _ | Resto], N2 ) :- num_elem(Resto,N), N2 is N + 1.
+num_elem([_|Resto], Numero2) :- num_elem(Resto,Numero), Numero2 is Numero + 1.

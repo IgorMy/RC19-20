@@ -5,4 +5,4 @@
 %   inverso.
 
 invertir([],[]).
-invertir([Cab|Resto],R2) :- invertir(Resto,R), append(R, [Cab], R2).
+invertir([Cabeza|Resto],Salida2 ) :- invertir(Resto,Salida) , append(Salida,[Cabeza],Salida2).
