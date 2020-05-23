@@ -13,5 +13,6 @@ El problema de las N-Reinas es un problema de ajedrez en el que se colocan N rei
   <img width="300" height="300" src="Imagenes/Reinas1.png">
 </p>
 <br/><br/>
+
 ## Predicados complementarios 
 En este apartado se explicarán los predicados/declaraciones de los que se valen cada una de las implementaciones para resolver el problema.
