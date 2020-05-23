@@ -22,9 +22,7 @@ Lógica: ∀𝑋.(𝑟𝑜𝑠𝑎(𝑋) → ∃𝑌.(𝑡𝑖𝑒𝑛𝑒(𝑋,
       Entonces existe un Y tal que
         (X tiene Y) y (Y son espinas) 
 ```
-<p align="center">
-  <img width="650" height="200" src="Imagenes/Tabla.png">
-</p>
+
 
 ### Ventajas
 * La representación lógica ayuda a realizar el razonamiento lógico.
