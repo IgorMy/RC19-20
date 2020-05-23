@@ -23,7 +23,7 @@ Lógica: ∀𝑋.(𝑟𝑜𝑠𝑎(𝑋) → ∃𝑌.(𝑡𝑖𝑒𝑛𝑒(𝑋,
         (X tiene Y) y (Y son espinas) 
 ```
 <p align="center">
-  <img width="650" height="200" src="Imagenes/Tabla.png">
+  <img width="600" height="194" src="Imagenes/Tabla.png">
 </p>
 
 ### Ventajas
@@ -35,5 +35,13 @@ Lógica: ∀𝑋.(𝑟𝑜𝑠𝑎(𝑋) → ∃𝑌.(𝑡𝑖𝑒𝑛𝑒(𝑋,
 * Esta técnica puede no ser muy natural, y la inferencia puede no ser muy eficiente.
 
 ## Redes semánticas
-Las redes semánticas son una forma de representar el conocimiento basada en grafos. Estos constan de nodos que representan el objeto y arcos que describen la relación entre esos objetos. En el caso de que el grafo no presente ciclos, se puede visualizar como un árbol. Se usan principalmente para representar mapas conceptuales y mentales. 
+Las redes semánticas son una forma de representar el conocimiento basada en grafos. Estos constan de nodos que representan el objeto y arcos que describen la relación entre esos objetos. En el caso de que el grafo no presente ciclos, se puede visualizar como un árbol. Se usan principalmente para representar mapas conceptuales y mentales.  
+Ejemplo:
+<p align="center">
+  <img width="900" height="260" src="Imagenes/Tabla2.png">
+</p>
 
+Esta representación consta de tres tipos de relaciones:
+* Relación **IS-A** (es un/a): basada en herencia en la que el nodo origen representa una instancia concreta del nodo destino.
+* Relación **KIND-OF** (es un tipo de): basada en una característica del nodo que se representa con otro nodo.
+* Relación **HAS** (tiene): representa en una propiedad del nodo con otro nodo.  
