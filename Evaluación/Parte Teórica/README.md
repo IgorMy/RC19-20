@@ -1,4 +1,4 @@
-# Técnicas de Representación del Conocimiento 
+# Técnicas mas comunes de Representación del Conocimiento 
 :office: Universidad de Huelva (UHU)  
 :calendar: Curso 2019-2020  
 :mortar_board: Representación del conocimiento  
