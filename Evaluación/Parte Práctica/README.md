@@ -5,7 +5,7 @@
 :octocat: Ihar Myshkevich
 ## Introducción
 El presente documento desarrolla la implementación de la resolución del problema de N-Reinas en Prolog. Para su desarrollo se ha tomado el código del [problema 90  (Eight queens problem)](https://www.ic.unicamp.br/~meidanis/courses/mc336/2009s2/prolog/problemas/p90.pl) de [P-99: Ninety-Nine Prolog Problems](https://www.ic.unicamp.br/~meidanis/courses/mc336/2009s2/prolog/problemas/) de [Werner Hett](https://sites.google.com/site/prologsite/author). En este código están presentes dos implementaciones que se comentaran por separado.  
-
+*Para el lector inexperto, se recomienda una previa lectura de este [documento](http://www.uhu.es/jose.carpio/N_95.pdf) o el seguimiento de los siguientes [vídeos](https://www.youtube.com/channel/UCdPmeK-zVtvYS4qX_Wa87Wg).*  
 ## Problema de las N-Reinas
 El problema de las N-Reinas es un problema de ajedrez en el que se colocan N reinas en un tablero de N<sup>2</sup> posiciones sin que ninguna amenace a otra. El tablero de ajedrez estándar es de 8<sup>2</sup> posiciones, permitiendo así la colocación de 8 reinas sin que estas amenacen unas a otras. Pero su resolución se puede aplicar a tableros más pequeños y más grandes. Siendo el tablero mínimo de 4<sup>2</sup> posiciones con 4 reinas y sin un limite establecido para el mas grande, aparte del tiempo de computo.
 <p align="center">
