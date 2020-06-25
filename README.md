@@ -1,4 +1,4 @@
-# Repositorio de almacenamiento de practicas
+# Repositorio de almacenamiento de Representación del Conocimiento
 :office: Universidad de Huelva (UHU)  
 :calendar: Curso 2019-2020  
 :mortar_board:Representación del Conocimiento  
